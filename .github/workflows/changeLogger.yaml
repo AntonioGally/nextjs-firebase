@@ -16,7 +16,7 @@ jobs:
 
       - name: Update Changelog
         id: action
-        uses: AntonioGally/ag-changelogger
+        uses: AntonioGally/ag-changelogger/@main
         with:
           changelogPath: ./CHANGELOG.md
           commitUserName: AntonioGally
